@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function lighten(x)
+        {
+            x.style.opacity=0.5;
+        }
+        function normal(x)
+        {
+
+            x.style.opacity=1;
+        }
+        </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+     <img onmouseout="normal(this)" src="image\3.jpg">
+     <img onmousemove="lighten(this)" onmouseout="normal(this)" src="image\03.jpg" style="cursor:pointer">
+     <img onmousemove="lighten(this)" onmouseout="normal(this)" src="image\10.jpg" style="cursor:pointer">
+     <img onmousemove="lighten(this)" onmouseout="normal(this)" src="image\11.jpg" style="cursor:pointer">
+     <img onmousemove="lighten(this)" onmouseout="normal(this)" src="image\19.jpg" style="cursor:pointer"> 
+</body>
+</html>
